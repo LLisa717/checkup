@@ -9,5 +9,6 @@ export { default as getSearchLoader } from './configuration/loaders/get-search-l
 export { default as getFilepathLoader } from './configuration/loaders/get-filepath-loader';
 export { ui } from './utils/ui';
 export { toPairs } from './utils/data-transformers';
+export { default as ConfigInitService } from './configuration/config-init-service';
 
 export * from './types';
